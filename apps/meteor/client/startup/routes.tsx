@@ -27,7 +27,6 @@ const MeetPage = lazy(() => import('../views/meet/MeetPage'));
 const DirectoryPage = lazy(() => import('../views/directory/DirectoryPage'));
 const OmnichannelDirectoryPage = lazy(() => import('../views/omnichannel/directory/OmnichannelDirectoryPage'));
 const OmnichannelQueueList = lazy(() => import('../views/omnichannel/queueList'));
-const AccountRoute = lazy(() => import('../views/account/AccountRoute'));
 
 FlowRouter.wait();
 
